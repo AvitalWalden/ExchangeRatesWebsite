@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: 'Quicksand';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #add8e6;
+  /* תכלת */
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Quicksand';
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.sort {
+  color: #d75252;
+  margin: 3px, 
+
+}
